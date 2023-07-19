@@ -1,8 +1,17 @@
 function fibonacci(num) {
 //
-	if(num < 2)
-		return num
-	return fibonacci(num-1) + fibonacci(num-2)
+	let a=0 ,b=1;
+	if(num <=2)
+	{
+		return n-1;
+	}
+	for(let i=0; i<n-2; i++)
+		{
+			let temp =b;
+			b=a+b;
+			a=temp;
+		}
+	return b;
 	
 }
 
